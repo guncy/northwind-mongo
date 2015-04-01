@@ -14,3 +14,11 @@
 
 
 Thanks to [@shayden](https://github.com/shayden) for the csv dump. Buyer beware, caveat emptor, carthago delenda est et al
+
+### mongorestore
+
+```
+$ heroku config
+
+$ mongorestore -h oceanic.mongohq.com:10043 -d {dbname} -u {user} -p {password} dump
+```
